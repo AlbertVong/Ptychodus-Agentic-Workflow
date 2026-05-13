@@ -62,7 +62,8 @@ class Orchestrator(MonitoredAgent):
     async def optimize(self, data_product_file: Path) -> bytes:
         """Optimization loop.
 
-        todo: This ideally should be a langgraph
+        todo: This could be done with langgraph or langchain.
+
 
         def build_graph() -> StateGraph:
             g = StateGraph(ReconState)
