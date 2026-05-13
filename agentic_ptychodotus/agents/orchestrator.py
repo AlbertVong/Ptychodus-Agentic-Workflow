@@ -63,7 +63,9 @@ class Orchestrator(MonitoredAgent):
         """Optimization loop.
 
         todo: This could be done with langgraph or langchain.
-
+        Note: Example on wrapping an academy agent action
+              as a tool call:
+        https://docs.academy-agents.org/main/guides/llm/#llm-as-an-orchestrator-agents-as-tools
 
         def build_graph() -> StateGraph:
             g = StateGraph(ReconState)
